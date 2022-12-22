@@ -59,4 +59,9 @@ echo "Ternary" . $status = (empty($u)) ? "yes" : "no" . "<br>";
 echo "coalecing" . $color = $color ?? "red" . "<br>";
 
 
+//combine array. based on key value
+$a = array("a" => "apple", "b" => "banana");
+$b = array("a" => "pear", "b" => "strawberry", "c" => "cherry");
 
+$c = $a + $b; // Union of $a and $b
+print_r($c);
