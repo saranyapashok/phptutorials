@@ -15,3 +15,6 @@ class deriveProtected extends ParentProtected {
         return $this->protfunction();
     }
 }
+
+$c = new deriveProtected();
+print $c->provar();

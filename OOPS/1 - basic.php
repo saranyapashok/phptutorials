@@ -6,7 +6,7 @@ require_once __DIR__ . '/ParentPrivate.php';
 
 class abc {
   public $var;
-  
+
   public function printhw($txt) {
     return $this->var . $txt;
   }
@@ -14,9 +14,9 @@ class abc {
 
 //Basic
 
-// $obj = new abc();
-// $obj->var = "hello";
-// print $obj->printhw(" world");
+$obj = new abc();
+$obj->var = "hello";
+print $obj->printhw(" world");
 // var_dump($obj);
 
 // Protected.

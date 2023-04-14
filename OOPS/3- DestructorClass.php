@@ -6,6 +6,7 @@ class DestructorClass {
   function __construct($name) {
     $this->name = $name;
   }
+  //gets call at the end of the script.
   function __destruct() {
     echo "The fruit is {$this->name}.";
   }
@@ -16,5 +17,4 @@ print "abcd";
 print $apple->name;
 
 $protectobj = new ParentProtected();
- print $protectobj->protfunction();
- 
+print $protectobj->protfunction();

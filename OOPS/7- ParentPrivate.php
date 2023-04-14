@@ -12,3 +12,7 @@ class derivePrivate extends ParentPrivate {
         return $this->privatevar;
     }
 }
+
+$a = new derivePrivate();
+print $a->privatevarderive();
+print $a->privar();
